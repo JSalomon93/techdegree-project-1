@@ -91,7 +91,7 @@ while True:
         
         if status.lower() == "y":
             low_score = min(correct_list)
-            print(f"\nYour current best is: >>>>> {low_score} <<<<<, good luck beating that!")
+            print(f"\nYour current best is: >>>>> {low_score} <<<<< good luck beating that!")
             start_game()
         
         elif status.lower() == "n":
